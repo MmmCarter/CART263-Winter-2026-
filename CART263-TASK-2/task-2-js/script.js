@@ -16,25 +16,35 @@ function setup() {
     /*************************************** */
     /* 2: only the first paragraph element */
     /***CODE */
-    /***OUTPUT: 
-     * 
+    //console.log(document.getElementById("1"));
+    /***OUTPUT:
+     * <p id="1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis blanditiis, et
+                laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur ducimus
+                officiis non
+                quasi officia sit veniam!
+            </p>
      */
 
 
     /*************************************** */
     /* 3: all elements with the class inner-container */
     /***CODE */
-    /***OUTPUT: 
-     * 
+    //console.log(document.getElementsByClassName("inner-container"));
+    /***OUTPUT:
+     * HTMLCollection(8) [div.inner-container, div.inner-container, div.inner-container, div.inner-container, div.inner-container, div.inner-container, div.inner-container, div.inner-container]
      */
-
 
     /*************************************** */
     /* 4: the last image element inside the element that has the class img-container */
     /***CODE */
-    /***OUTPUT: 
-     * 
+    //console.log(document.getElementsByClassName("img-container")[7]);
+    /***OUTPUT:
+     * <div class="img-container">
+                        <img class="img-image" src="task-2-images/seventeen.png">
+                    </div>
      */
+
 
 
     /*************************************** */
@@ -42,16 +52,133 @@ function setup() {
     /* 5B: length of the list in 5A */
     /* 5C: the text content of the first element in the list from 5A */
     /***CODE */
-    /***OUTPUT: 
-     * 
+    //console.log(document.querySelectorAll("h2"));
+    //console.log(document.querySelectorAll("h2").length);
+    //console.log(document.querySelectorAll("h2")[0]);
+    /***OUTPUT:
+     * NodeList [h2]
+     * 1
+     * <h2> The header of this fancy page</h2>
      */
+
 
 
     /*************************************** */
     /* 6: the element with id name parent */
     /***CODE */
-    /***OUTPUT: 
-     * 
+    //console.log(document.getElementById("parent"));
+    /***OUTPUT:
+     * <section id="parent">
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/sixteen.png">
+                    </div>
+                    <p id="2" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/eight.png">
+                    </div>
+                    <p id="3" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            <div class="inner-container">
+
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/eleven.png">
+                    </div>
+                    <p id="4" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/fifteen.png">
+                    </div>
+                    <p id="5" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/five.png">
+                    </div>
+                    <p id="6" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/three.png">
+                    </div>
+                    <p id="7" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/twelve.png">
+                    </div>
+                    <p id="8" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            
+            <div class="inner-container">
+                <div class="content-container">
+                    <div class="img-container">
+                        <img class="img-image" src="task-2-images/seventeen.png">
+                    </div>
+                    <p id="9" class="img-descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                        perspiciatis blanditiis, et
+                        laborum praesentium earum. Enim facere, quia commodi voluptate, quis asperiores, pariatur
+                        ducimus officiis non
+                        quasi officia sit veniam!</p>
+
+                </div>
+            </div>
+            
+        </section>
      */
 
     /*************************************** */
