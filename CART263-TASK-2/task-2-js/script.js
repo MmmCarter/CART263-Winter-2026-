@@ -190,6 +190,7 @@ function setup() {
     /*************************************** */
     /* 1: Select the first paragraph and replace the text within the paragraph... */
     /***CODE */
+    document.getElementById("1").textContent = "New text in paragraph one: text changed by Haolei on the following date: Jan 22 2026.";
 
     /*************************************** */
     /* 2: Select all elements in the HTML that have the class name content-container
@@ -200,7 +201,7 @@ function setup() {
     /*************************************** */
     /* 3: Change the src element of the first image element on the page to be ...
     /***CODE */
-
+    document.querySelector('img[src="task-2-images/sixteen.png"]').src = "task-2-images/seven.png";
     /*************************************** */
     /* 4: Select the third paragraph element on the page and 
     replace the content (within the paragraph) to be an h2 element which contains the text `TEST 123`
