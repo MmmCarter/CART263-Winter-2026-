@@ -190,11 +190,13 @@ function setup() {
     /*************************************** */
     /* 1: Select the first paragraph and replace the text within the paragraph... */
     /***CODE */
+
     /*************************************** */
     /* 2: Select all elements in the HTML that have the class name content-container
      and change the background color ... of first and second ...*/
     /***CODE */
-
+    document.querySelectorAll(".content-container")[0].style.backgroundColor = "orange";
+    document.querySelectorAll(".content-container")[1].style.backgroundColor = "purple";
     /*************************************** */
     /* 3: Change the src element of the first image element on the page to be ...
     /***CODE */
