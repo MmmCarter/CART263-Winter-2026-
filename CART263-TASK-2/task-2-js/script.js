@@ -203,53 +203,53 @@ function setup() {
     /* 1: Select the first paragraph and replace the text within the paragraph... */
     /***CODE */
 
-    //document.getElementById("1").textContent = "New text in paragraph one: text changed by Haolei on the following date: Jan 22 2026.";
+    document.getElementById("1").textContent = "New text in paragraph one: text changed by Haolei on the following date: Jan 22 2026.";
 
     /*************************************** */
     /* 2: Select all elements in the HTML that have the class name content-container
      and change the background color ... of first and second ...*/
     /***CODE */
 
-    //document.querySelectorAll(".content-container")[0].style.backgroundColor = "orange";
-    //document.querySelectorAll(".content-container")[1].style.backgroundColor = "purple";
+    document.querySelectorAll(".content-container")[0].style.backgroundColor = "orange";
+    document.querySelectorAll(".content-container")[1].style.backgroundColor = "purple";
 
     /*************************************** */
     /* 3: Change the src element of the first image element on the page to be ...
     /***CODE */
 
-    //document.querySelector('img[src="task-2-images/two.png"]').src = "task-2-images/seven.png";
+    document.querySelector('img[src="task-2-images/two.png"]').src = "task-2-images/seven.png";
 
     /*************************************** */
     /* 4: Select the third paragraph element on the page and 
     replace the content (within the paragraph) to be an h2 element which contains the text `TEST 123`
     /***CODE */
 
-    //let thirdParagraph = document.querySelectorAll('p')[2];
-    //let newH2 = document.createElement('h2');
-    //newH2.textContent = 'TEST 123';
-    //thirdParagraph.textContent = '';
-    //thirdParagraph.appendChild(newH2);
+    let thirdParagraph = document.querySelectorAll('p')[2];
+    let newH2 = document.createElement('h2');
+    newH2.textContent = 'TEST 123';
+    thirdParagraph.textContent = '';
+    thirdParagraph.appendChild(newH2);
 
     /*************************************** */
     /* 5: Select the fourth paragraph element on the page and 
     add to the existing content an h2 element containing the text `TEST 123`
     /***CODE */
 
-    //let fourthparagraph = document.querySelectorAll('p')[3];
-    //let anotherH2 = document.createElement('h2');
-    //anotherH2.textContent = 'TEST 123';
-    //fourthparagraph.appendChild(anotherH2);
+    let fourthparagraph = document.querySelectorAll('p')[3];
+    let anotherH2 = document.createElement('h2');
+    anotherH2.textContent = 'TEST 123';
+    fourthparagraph.appendChild(anotherH2);
 
     /*************************************** */
     /* 6: Select the fifth paragraph element on the page and add to the existing content 
     an img element that holds `one.png`, and add the class newStyle to said paragraph element.
     /***CODE */
 
-    //let fifthParagraph = document.querySelectorAll('p')[4];
-    //let newImage = document.createElement('img');
-    //newImage.src = 'task-2-images/one.png';
-    //fifthParagraph.appendChild(newImage);
-    //fifthParagraph.classList.add('newStyle');
+    let fifthParagraph = document.querySelectorAll('p')[4];
+    let newImage = document.createElement('img');
+    newImage.src = 'task-2-images/one.png';
+    fifthParagraph.appendChild(newImage);
+    fifthParagraph.classList.add('newStyle');
 
     /*************************************** */
     /* 7: Add the following array variable: let colors = ['red','blue','green','orange'];, 
@@ -260,9 +260,9 @@ function setup() {
     a background using that color.
     /***CODE */
 
-    //let colors = ['red', 'blue', 'green', 'orange'];
-    //let innerContainers = document.getElementsByClassName('inner-container');
-    //for (let i = 0; i < colors.length; i++) {innerContainers[i].style.backgroundColor = colors[i];}
+    let colors = ['red', 'blue', 'green', 'orange'];
+    let innerContainers = document.getElementsByClassName('inner-container');
+    for (let i = 0; i < colors.length; i++) { innerContainers[i].style.backgroundColor = colors[i]; }
 
     /*************************************** */
     /*** END PART TWO MODIFY */
