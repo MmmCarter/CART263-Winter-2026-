@@ -334,10 +334,44 @@ function setup() {
 
     /***CODE */
 
+    //2E:
+    //let parentGrid = document.getElementById("new-grid");
+    //for (let row = 0; row < 10; row++) {
+    //for (let col = 0; col < 10; col++) {
+    //let returnedDiv = customNewBoxCreate(parentGrid);
+
+    //2F:
+    //returnedDiv.style.position = "absolute";
+    //returnedDiv.style.left = (col * 40) + "px";
+    //returnedDiv.style.top = (row * 40) + "px";
+
+    //2H:
+    //if (row % 2 === 0) {
+    //returnedDiv.style.backgroundColor = "white";
+    //returnedDiv.textContent = "EVEN";} else {
+    //returnedDiv.style.backgroundColor = "cornflowerblue";
+    //returnedDiv.textContent = "ODD";}}}
+
+    //2G:
+    //let allTestDivs = document.querySelectorAll(".testDiv");
+    //console.log(allTestDivs.length);
+
+    //2A:
+    //function customNewBoxCreate(parent) {
+
+    //2B:
+    //let newDiv = document.createElement("div");
+    //newDiv.classList.add("testDiv");
+
+    //2C:
+    //parent.appendChild(newDiv);
+
+    //2D:
+    //return newDiv;}
+
 
     /***EXPLANATION::
-     * 
-     * 
+     * The console will logs the number 100. This is because the nested for loop creates a 10x10 grid, resulting in a total of 100. Each loop iteration creates ONE new div with the class "testDiv". Therefore, a total of 100 elements with the class "testDiv" exist in the document, and querySelectorAll(".testDiv") returns all of them.
      */
 
     /*************************************** */
