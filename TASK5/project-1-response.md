@@ -1,0 +1,17 @@
+## Project 1 Response (to Group 8's work)
+> https://github.com/bbwinnie/CART-263-PROJECT-I
+> https://bbwinnie.github.io/CART-263-PROJECT-I/xueyi/script.html
+
+After playing it a few times, I found this work both enjoyable and thoughtfully designed. One thing that immediately stood out to me was how open the experience felt. When I first opened the page, the interface was very minimal, and I was not entirely sure what I was supposed to do. At first this felt slightly confusing, but after a few seconds I realized that this uncertainty was actually intentional. It encouraged me to experiment and try different interactions with the page.
+
+Once I started clicking and moving around, the visuals began to react to my actions. This was the moment when the project became really interesting to me. Instead of just presenting something for the viewer to watch, the piece requires the user to participate in order to reveal what the system can do. I personally enjoyed this sense of discovery (especially the "Can you see me now?" part). Each interaction felt like a small experiment, and I found myself continuing to interact with the page just to see what would happen next.
+
+Another part of the experience that I appreciated was the visual feedback. Whenever I interacted with the page, the system responded immediately with changes on the screen. This made the interaction feel very responsive and alive. I noticed that this quick feedback made me want to keep trying different actions which I'll refreshing again and again. Even small changes in the visuals were enough to keep my attention, because they clearly showed that the program was reacting to what I was doing.
+
+From the code perspective, the program organizes most of its behavior around event-based functions that respond to user input. For instance, mouse interaction functions detect when the user clicks or moves the cursor, and these events trigger changes in the visual elements on the canvas. The code also stores values in variables that track things such as positions, colors, or the number of interactions. These values are updated during the program’s execution, which allows the visuals to change over time.
+
+Conditional statements are also used to control when certain behaviors appear. In other words, the program checks specific conditions before triggering particular visual effects. This creates a structure where the system can behave differently depending on how the user interacts with it. The drawing functions continuously refresh the canvas, updating the shapes and visual elements frame by frame. Because of this loop, the screen is always being redrawn based on the current state of the program, which makes the visuals feel dynamic and responsive to user input.
+
+What I found most compelling about the project is how it turns interaction itself into the central part of the artwork. The visuals are relatively minimal, but the experience remains engaging because the user plays an active role in shaping what appears on the screen. For me, the most surprising aspect was how quickly I became curious about the system’s behavior. I kept playing with it longer than I expected, simply because I wanted to see how the visuals would respond next.
+
+Overall, it's a very good project! I really like their UI style, and they clearly convey the topic that they want to get across. If they decide to extend this project as their project 2, I’d be happy to keep participating in it!
